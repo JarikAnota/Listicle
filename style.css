@@ -1,0 +1,117 @@
+/* Estilos para el encabezado */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el título */
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos para la imagen de perfil */
+.profile-image {
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: block;
+  margin: -50px auto 0;
+}
+
+/* Estilos para el texto del perfil */
+.profile-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  text-align: center;
+}
+
+/* Estilos para el nombre en negrita */
+.profile-text strong {
+  font-weight: bold;
+}
+
+/* Estilos para la última actualización en cursiva */
+.profile-text em {
+  font-style: italic;
+}
+
+/* Estilos para la línea gris */
+.gray-line {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* Estilos para el título */
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #42b4d6;
+  text-decoration: none;
+  /* Elimina el subrayado predeterminado */
+  padding-left: 330px;
+  /* Espacio izquierdo (borde izquierdo) */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Agrega subrayado al pasar el cursor sobre el enlace */
+}
+
+/* Estilos para los párrafos */
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+  text-align: justify;
+}
+
+.centered-paragraph {
+  text-align: justify;
+  /* Justificar el texto */
+  padding-left: 330px;
+  /* Espacio izquierdo (borde izquierdo) */
+  padding-right: 330px;
+  /* Espacio derecho (borde derecho) */
+}
+
+.recommendation-text {
+  font-weight: bold;
+  /* Aplica negrita a la frase "Recomendación:" */
+  padding-left: 330px;
+}
+
+.image-padding {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
